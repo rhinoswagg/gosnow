@@ -1,0 +1,281 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Flavors — GoSnow Shave Ice Rentals | Granbury, TX</title>
+  <meta name="description" content="GoSnow shave ice comes in a variety of bold, colorful flavors. Contact us to confirm current flavor availability for your event in Granbury, TX.">
+  <meta name="robots" content="index, follow">
+  <link rel="canonical" href="flavors.html">
+  <link rel="stylesheet" href="css/styles.css">
+  <style>
+    .flavor-card {
+      background: white;
+      border-radius: var(--radius);
+      padding: 32px 24px;
+      text-align: center;
+      border: 1.5px solid var(--border);
+      transition: var(--transition);
+    }
+    .flavor-card:hover { box-shadow: var(--shadow-lg); transform: translateY(-4px); border-color: transparent; }
+    .flavor-ball {
+      width: 80px; height: 80px;
+      border-radius: 50%;
+      margin: 0 auto 16px;
+      border: 4px solid white;
+      box-shadow: 0 4px 16px rgba(0,0,0,0.15);
+    }
+    .flavor-card h3 { font-size: 1.1rem; margin-bottom: 6px; }
+    .flavor-card p  { font-size: 0.88rem; }
+    .flavors-full-grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+      gap: 20px;
+    }
+    @media (max-width: 560px) {
+      .flavors-full-grid { grid-template-columns: repeat(2, 1fr); }
+    }
+  </style>
+</head>
+<body>
+
+<!-- ============ NAV ============ -->
+<header class="site-nav">
+  <div class="container">
+    <div class="nav-inner">
+      <a href="index.html" class="logo-link" aria-label="GoSnow — Home">
+        <img src="images/GoSnow_logo_transparent.png" alt="GoSnow" class="logo-img"
+             onerror="this.style.display='none';this.nextElementSibling.style.display='flex'">
+        <span class="logo-text" style="display:none"><span class="logo-go">Go</span><span class="logo-snow">Snow</span></span>
+      </a>
+      <nav aria-label="Main navigation">
+        <ul class="nav-links">
+          <li><a href="pricing.html">Pricing</a></li>
+          <li><a href="who-we-rent-to.html">Who We Serve</a></li>
+          <li><a href="flavors.html">Flavors</a></li>
+          <li><a href="faq.html">FAQ</a></li>
+          <li><a href="contact.html">Contact</a></li>
+          <li><a href="contact.html" class="nav-book">Book Now</a></li>
+        </ul>
+      </nav>
+      <button class="hamburger" aria-label="Open menu" aria-expanded="false">
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round">
+          <line x1="3" y1="6" x2="21" y2="6"/><line x1="3" y1="12" x2="21" y2="12"/><line x1="3" y1="18" x2="21" y2="18"/>
+        </svg>
+      </button>
+    </div>
+  </div>
+</header>
+<nav class="mobile-nav" aria-label="Mobile navigation">
+  <a href="index.html">Home</a>
+  <a href="pricing.html">Pricing</a>
+  <a href="who-we-rent-to.html">Who We Serve</a>
+  <a href="flavors.html">Flavors</a>
+  <a href="faq.html">FAQ</a>
+  <a href="contact.html">Contact</a>
+  <a href="contact.html" class="mobile-book">Book Now →</a>
+</nav>
+
+<main>
+
+  <!-- ============ PAGE HERO ============ -->
+  <section class="page-hero">
+    <div class="container">
+      <div class="section-tag">Flavors</div>
+      <h1>Bold, Colorful Flavors Your Guests Will Love</h1>
+      <p>From classic cherry to tropical mango — GoSnow brings bright, delicious flavors that make every cup worth sharing. Contact us to confirm what's available for your event.</p>
+    </div>
+  </section>
+
+  <!-- ============ FLAVOR NOTICE ============ -->
+  <section class="section-sm bg-white">
+    <div class="container">
+      <div class="flavors-notice" style="max-width:700px;margin:0 auto;font-size:1rem;">
+        🍧 <strong>Note:</strong> The flavors shown below are examples of what GoSnow may offer. Final flavor availability will vary — contact us to confirm exactly what's available for your event date.
+      </div>
+    </div>
+  </section>
+
+  <!-- ============ FLAVOR GRID ============ -->
+  <section class="section bg-light-blue">
+    <div class="container">
+      <div class="section-header">
+        <div class="section-tag">Example Flavors</div>
+        <h2>A Rainbow of Options</h2>
+        <p>Something for every taste — fruity, tropical, classic, or sweet. Guests of all ages find a favorite.</p>
+      </div>
+
+      <div class="flavors-full-grid">
+
+        <div class="flavor-card">
+          <div class="flavor-ball" style="background:linear-gradient(135deg,#64B5F6,#1976D2);"></div>
+          <h3>Blue Raspberry</h3>
+          <p>The crowd favorite. Bright, bold, and impossible to resist.</p>
+        </div>
+
+        <div class="flavor-card">
+          <div class="flavor-ball" style="background:linear-gradient(135deg,#EF5350,#C62828);"></div>
+          <h3>Cherry</h3>
+          <p>A timeless classic. Sweet, bright red, and loved by all ages.</p>
+        </div>
+
+        <div class="flavor-card">
+          <div class="flavor-ball" style="background:linear-gradient(135deg,#EC407A,#AD1457);"></div>
+          <h3>Strawberry</h3>
+          <p>Fresh, fruity, and sweet. A natural fit for any event.</p>
+        </div>
+
+        <div class="flavor-card">
+          <div class="flavor-ball" style="background:linear-gradient(135deg,#FF8A65,#E64A19);"></div>
+          <h3>Watermelon</h3>
+          <p>Cool and refreshing — the perfect summer flavor.</p>
+        </div>
+
+        <div class="flavor-card">
+          <div class="flavor-ball" style="background:linear-gradient(135deg,#FFB74D,#E65100);"></div>
+          <h3>Mango</h3>
+          <p>Tropical and sweet. A big hit at outdoor Texas events.</p>
+        </div>
+
+        <div class="flavor-card">
+          <div class="flavor-ball" style="background:linear-gradient(135deg,#FFF176,#F9A825);"></div>
+          <h3>Lemon</h3>
+          <p>Bright and tangy — a refreshing counterpoint to sweeter options.</p>
+        </div>
+
+        <div class="flavor-card">
+          <div class="flavor-ball" style="background:linear-gradient(135deg,#CE93D8,#7B1FA2);"></div>
+          <h3>Grape</h3>
+          <p>Bold purple color, sweet grape flavor. Kids absolutely love it.</p>
+        </div>
+
+        <div class="flavor-card">
+          <div class="flavor-ball" style="background:linear-gradient(135deg,#81C784,#2E7D32);"></div>
+          <h3>Green Apple</h3>
+          <p>Tart, tangy, and bright. A fun twist that stands out.</p>
+        </div>
+
+        <div class="flavor-card">
+          <div class="flavor-ball" style="background:linear-gradient(135deg,#FF8A65,#BF360C);"></div>
+          <h3>Tiger's Blood</h3>
+          <p>The classic shave ice specialty — strawberry, coconut, and watermelon.</p>
+        </div>
+
+        <div class="flavor-card">
+          <div class="flavor-ball" style="background:linear-gradient(135deg,#FFF59D,#F57F17);"></div>
+          <h3>Pineapple</h3>
+          <p>Tropical and bright. Pairs perfectly with other fruit flavors.</p>
+        </div>
+
+        <div class="flavor-card">
+          <div class="flavor-ball" style="background:linear-gradient(135deg,#FFCC80,#EF6C00);"></div>
+          <h3>Peach</h3>
+          <p>Sweet and smooth with a Southern feel. Always a crowd pleaser.</p>
+        </div>
+
+        <div class="flavor-card">
+          <div class="flavor-ball" style="background:linear-gradient(135deg,#E0F7FA,#80DEEA);"></div>
+          <h3>Coconut</h3>
+          <p>Creamy and tropical. Delicious on its own or layered with fruit flavors.</p>
+        </div>
+
+      </div>
+
+      <div class="flavors-notice" style="margin-top:36px;">
+        📋 <strong>Flavor availability may vary.</strong> Contact GoSnow before your event to confirm which flavors will be included in your rental. We'll do our best to accommodate requests.
+      </div>
+    </div>
+  </section>
+
+  <!-- ============ ABOUT SHAVE ICE ============ -->
+  <section class="section bg-white">
+    <div class="container">
+      <div class="section-header">
+        <div class="section-tag">What Makes It Great</div>
+        <h2>Why Guests Love Shave Ice</h2>
+        <p>It's not just a treat — it's an experience. Here's why shave ice works so well at events.</p>
+      </div>
+      <div class="why-grid">
+        <div class="why-card">
+          <div class="why-icon">🌈</div>
+          <h4>Visually Stunning</h4>
+          <p>Bright colors and layered flavors make every cup Instagram-worthy. Great for events where you want things to look as good as they taste.</p>
+        </div>
+        <div class="why-card red-accent">
+          <div class="why-icon">🌡️</div>
+          <h4>Perfect for Texas Heat</h4>
+          <p>There's nothing better than cold shave ice on a hot Texas day. It cools everyone down and keeps the energy up throughout the event.</p>
+        </div>
+        <div class="why-card">
+          <div class="why-icon">👶</div>
+          <h4>Every Age Loves It</h4>
+          <p>From toddlers to grandparents — shave ice is universally loved. No event is too young or too old for a great shave ice station.</p>
+        </div>
+        <div class="why-card red-accent">
+          <div class="why-icon">⚡</div>
+          <h4>Fast to Serve</h4>
+          <p>A shave ice machine can serve guests quickly, keeping lines short and everyone happy — even at bigger events.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ============ CTA ============ -->
+  <section class="cta-section">
+    <div class="container">
+      <h2>Ready to Bring the Flavors to Your Event?</h2>
+      <p>Contact GoSnow to confirm flavor availability and get a quote for your event in Granbury and surrounding areas.</p>
+      <div class="cta-group" style="justify-content:center;">
+        <a href="tel:7344064688" class="btn btn-outline-white btn-lg">📞 Call or Text: 734-406-4688</a>
+        <a href="contact.html" class="btn btn-red btn-lg">Request a Quote →</a>
+      </div>
+    </div>
+  </section>
+
+</main>
+
+<!-- ============ FOOTER ============ -->
+<footer class="site-footer">
+  <div class="container">
+    <div class="footer-inner">
+      <div class="footer-brand">
+        <img src="images/GoSnow_logo_transparent.png" alt="GoSnow" class="footer-logo-img">
+        <p>Shave ice machine rentals for parties, schools, churches, and events in Granbury, Texas and surrounding areas.</p>
+        <div class="footer-phone-row"><span>📞</span><a href="tel:7344064688">734-406-4688</a></div>
+        <p class="footer-sms">Call or text anytime</p>
+      </div>
+      <div class="footer-col">
+        <h5>Pages</h5>
+        <a href="pricing.html">Pricing</a>
+        <a href="who-we-rent-to.html">Who We Serve</a>
+        <a href="flavors.html">Flavors</a>
+        <a href="faq.html">FAQ</a>
+        <a href="contact.html">Contact</a>
+      </div>
+      <div class="footer-col">
+        <h5>Events</h5>
+        <a href="who-we-rent-to.html">Birthday Parties</a>
+        <a href="who-we-rent-to.html">Schools</a>
+        <a href="who-we-rent-to.html">Churches</a>
+        <a href="who-we-rent-to.html">Corporate Events</a>
+        <a href="who-we-rent-to.html">Fundraisers</a>
+      </div>
+      <div class="footer-col">
+        <h5>Service Area</h5>
+        <a href="contact.html">Granbury, TX</a>
+        <a href="contact.html">Hood County</a>
+        <a href="contact.html">Glen Rose</a>
+        <a href="contact.html">Weatherford</a>
+        <a href="contact.html">Surrounding Areas</a>
+      </div>
+    </div>
+    <div class="footer-bottom">
+      <span>© 2025 GoSnow · Granbury, Texas</span>
+      <span>Shave Ice Machine Rentals · 734-406-4688</span>
+    </div>
+  </div>
+</footer>
+
+<script src="js/main.js"></script>
+</body>
+</html>
